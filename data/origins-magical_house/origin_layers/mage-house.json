@@ -1,0 +1,9 @@
+{
+    "name": "Mage House",
+    "replace": false,
+    "enabled": true,
+    "order": 20,
+    "origins": [
+        "twineshaft-origins:librarian"
+    ]
+}

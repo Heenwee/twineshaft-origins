@@ -1,0 +1,10 @@
+{
+	"powers": [
+        "origins-classes:sneaky"
+	],
+	"icon": "minecraft:book",
+	"order": 20,
+	"impact": 0,
+	"name": "Librarian",
+	"description": "A herald of books"
+}

@@ -1,0 +1,15 @@
+{
+	"powers": [
+        "origins:tailwind",
+        "origins:fragile",
+        "origins:more_exhaustion",
+        "hco:smaller_size",
+        "hco:night_vision",
+        "hco:nimble"
+	],
+	"icon": "minecraft:gold_nugget",
+	"order": 10,
+	"impact": 1,
+    "name": "Goblin",
+    "description": "A nimble little rascal!"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "origins:multiple",
+  "modify_size": {
+	  "type": "extraorigins:modify_size",
+	  "scale": 0.65
+  },
+  "attribute_modifiers": {
+	"type": "origins:attribute",
+	"modifiers": [
+	  {
+		  "name": "Origin modifier",
+		  "attribute": "reach-entity-attributes:reach",
+		  "operation": "addition",
+		  "value": -1
+	  }
+	]
+  },
+    "name": "Goblin Sized",
+    "description": "Your size is about 75 percent of the average human height, and your arms can't reach as far as a human would."
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "enabled": true,
+    "origins": [
+        "twineshaft-origins:librarian"
+    ]
+}
