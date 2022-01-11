@@ -3,9 +3,9 @@
         "origins:tailwind",
         "origins:fragile",
         "origins:more_exhaustion",
-        "twineshaft-origins:smaller_size",
-        "twineshaft-origins:night_vision",
-        "twineshaft-origins:nimble"
+        "twins:smaller_size",
+        "twins:night_vision",
+        "twins:nimble"
 	],
 	"icon": "minecraft:gold_nugget",
 	"order": 10,

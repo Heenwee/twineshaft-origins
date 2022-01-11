@@ -1,12 +1,12 @@
 {
 	"type": "origins:fire_projectile",
 	"entity_type": "minecraft:fireball",
-	"cooldown": 20,
+	"cooldown": 5,
 	"count": 1,
 	"speed": 0.1,
 	"divergence": 1,
 	"sound": "minecraft:block.enchantment_table.use",
-    "tag": "{ExplosionPower:3}",
+    "tag": "{ExplosionPower:5}",
 	"key": {
 		"key": "key.origins.primary_active",
 		"continuous": false

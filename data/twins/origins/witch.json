@@ -1,7 +1,7 @@
 {
 	"powers": [
-        "twineshaft-origins:fireball",
-		"twineshaft-origins:teleport"
+        "twins:fireball",
+		"twins:teleport"
 	],
 	"icon": "minecraft:potion",
 	"order": 3,
