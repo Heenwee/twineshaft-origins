@@ -1,8 +1,8 @@
 {
 	"powers": [
-        
+        "twins:teleport"
 	],
-	"icon": "minecraft:end_stone_brick",
+	"icon": "minecraft:end_stone_bricks",
 	"order": 8,
 	"impact": 0,
     "name": "Endwalker",
