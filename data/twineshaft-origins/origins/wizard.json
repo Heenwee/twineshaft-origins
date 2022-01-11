@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:book",
+	"order": 9,
+	"impact": 0,
+    "name": "Wizard",
+    "description": "\"a jack of all traits, but master of none\""
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:end_stone_brick",
+	"order": 8,
+	"impact": 0,
+    "name": "Endwalker",
+    "description": "walking in the end"
+}
