@@ -1,0 +1,28 @@
+{
+	"name": "Summon Soul Speed",
+	"description": "You can enchant a pair of boots with soul speed as your secondary",
+	"type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:block.enchantment_table.use player @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "enchant @s minecraft:soul_speed 2"
+            }
+        ]
+    },
+    "cooldown": 10,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "should_render": true,
+        "bar_index": 7
+    }
+}

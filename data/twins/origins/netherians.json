@@ -1,6 +1,6 @@
 {
 	"powers": [
-        "twins:soulsand_walking"
+        "twins:auto_soulspeed"
 	],
 	"icon": "minecraft:netherrack",
 	"order": 7,
