@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 2
+    },
+    "chest": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 6
+    },
+    "legs": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 5
+    },
+    "feet": {
+      "type": "origins:armor_value",
+      "comparison": ">",
+      "compare_to": 2
+    },
+    "name": "Brin over brawn",
+    "description": "You may be strong in terms of spellcasting, but you aren't in terms of heavy lifting. You are unable to use armor heavier than iron."
+  }

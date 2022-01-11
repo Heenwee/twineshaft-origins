@@ -1,6 +1,11 @@
 {
 	"powers": [
-        
+		"origins-classes:better_enchanting",
+        "origins:nine_lives",
+		"twins:weak",
+		"twins:iron_armour",
+		"twins:fireball",
+		"twins:teleport"
 	],
 	"icon": "minecraft:book",
 	"order": 9,

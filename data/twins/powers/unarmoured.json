@@ -1,0 +1,11 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.armor",
+        "operation": "addition",
+        "value": -4
+    },
+    "tick_rate": 20,
+    "name": "Brittle Bones",
+    "description": "Your bones are more fragile, so you are more susceptible to more damage if you are hurt."
+}
