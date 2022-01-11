@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "twineshaft-origins:fireball",
+		"twineshaft-origins:teleport"
+	],
+	"icon": "minecraft:potion",
+	"order": 3,
+	"impact": 0,
+    "name": "Witch",
+    "description": "A lil' ol' lady that can like, do stuff"
+}

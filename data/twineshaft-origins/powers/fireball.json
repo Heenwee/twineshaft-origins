@@ -1,0 +1,22 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"cooldown": 20,
+	"count": 1,
+	"speed": 0.1,
+	"divergence": 1,
+	"sound": "minecraft:block.enchantment_table.use",
+    "tag": "{ExplosionPower:3}",
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render":true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 8
+	},
+	"name": "Fireball",
+	"description": "Shoots an explosive fireball that gains speed the longer it flys by pressing g",
+    "hidden": false
+}

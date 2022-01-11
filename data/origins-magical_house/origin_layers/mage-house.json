@@ -4,6 +4,7 @@
     "enabled": true,
     "order": 20,
     "origins": [
-        "twineshaft-origins:librarian"
+        "twineshaft-origins:librarian",
+        "twineshaft-origins:witch"
     ]
 }
