@@ -4,12 +4,15 @@
     "enabled": true,
     "order": 20,
     "origins": [
-        "twins:witch",
         "twins:earthmother",
         "twins:sealing",
         "twins:netherians",
         "twins:endwalker",
         "twins:wizard",
-        "twins:simpleton"
+        "twins:simpleton",
+
+        
+        "twins:witch",
+        "twins:fuckingnerd"
     ]
 }

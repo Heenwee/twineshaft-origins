@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:nbt",
+        "nbt": "{twins: 1b}"
+    },
+    "hidden": true
+}

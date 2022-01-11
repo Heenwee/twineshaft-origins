@@ -1,0 +1,33 @@
+{
+	"name": "switch items",
+    "description": "switch out your hotbar for your spell book",
+	"type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:scoreboard",
+            "objective": "castable",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:execute_command",
+            "command": "function twins:loaditemsforplayers"
+        },
+        "else_action": {
+            "type": "origins:execute_command",
+            "command": "function twins:storeitemsforplayers"
+    
+        }
+    },
+    "cooldown": 10,
+    "key": {
+        "key": "key.saveToolbarActivator",
+        "continuous": false
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "should_render": true,
+        "bar_index": 7
+    }
+}

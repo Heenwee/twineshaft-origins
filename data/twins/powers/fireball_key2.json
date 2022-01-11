@@ -1,0 +1,37 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:fireball",
+	"cooldown": 5,
+	"count": 1,
+	"speed": 0.1,
+	"divergence": 1,
+	"sound": "minecraft:block.enchantment_table.use",
+    "tag": "{ExplosionPower:3}",
+	"key": {
+		"key": "key.use",
+		"continuous": false
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:scoreboard",
+				"objective": "castable",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:nbt",
+				"nbt": "{SelectedItemSlot:1}"
+			}
+		]
+	},
+	"hud_render": {
+		"should_render":true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 8
+	},
+	"name": "Fireball",
+	"description": "fireball slot 2 selected right click",
+    "hidden": false
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+        "twins:switch_magic_hotbar",
+        "twins:no_use_items_with_special_tag",
+        "twins:teleport_key1",
+        "twins:fireball_key2"
+        
+	],
+	"icon": "minecraft:grass",
+	"order": 3,
+	"impact": 0,
+    "name": "nerd",
+    "description": "test:)"
+}

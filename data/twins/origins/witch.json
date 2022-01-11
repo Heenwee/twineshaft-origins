@@ -1,7 +1,9 @@
 {
 	"powers": [
         "twins:fireball",
-		"twins:teleport"
+		"twins:teleport",
+		"twins:40mana",
+		"twins:1manaregen"
 	],
 	"icon": "minecraft:potion",
 	"order": 3,
