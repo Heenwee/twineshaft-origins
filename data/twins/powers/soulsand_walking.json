@@ -1,0 +1,19 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifiers":{
+        "name": "Origin modifier",
+		"attribute": "minecraft:generic.movement_speed",
+		"operation": "multiply_total",
+		"value": 1
+    },
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:soul_sand"
+        }
+    },
+    "tick_rate": 1,
+    "name": "Walking on souls",
+    "description": "Your feet are indused with a type of magic that allows you to walk like normal when walking on soul sand."
+}
