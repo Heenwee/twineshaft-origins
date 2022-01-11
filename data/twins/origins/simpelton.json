@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:diamond_sword",
+	"order": 10,
+	"impact": 0,
+    "name": "Simpelton",
+    "description": "simple mage for newbies (:"
+}

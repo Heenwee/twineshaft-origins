@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:dirt",
+	"order": 5,
+	"impact": 0,
+    "name": "Earthmother",
+    "description": "earthmother"
+}

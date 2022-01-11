@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:netherrack",
+	"order": 7,
+	"impact": 0,
+    "name": "Netherian",
+    "description": "nether person"
+}
