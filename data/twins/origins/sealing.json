@@ -1,5 +1,6 @@
 {
 	"powers": [
+        "twins:switch_magic_hotbar",
 		"origins:water_vision",
 		"origins:aqua_affinity",
 		"origins:swim_speed",

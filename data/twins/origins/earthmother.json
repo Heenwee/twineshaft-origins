@@ -1,5 +1,6 @@
 {
 	"powers": [
+        "twins:switch_magic_hotbar",
         "twins:blindsphere",
 		"twins:hedgewitch_immunity"
 	],

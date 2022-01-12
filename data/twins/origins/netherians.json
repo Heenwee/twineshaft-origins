@@ -1,6 +1,8 @@
 {
 	"powers": [
-        "twins:auto_soulspeed"
+        "twins:switch_magic_hotbar",
+        "twins:auto_soulspeed",
+		"twins:fireball"
 	],
 	"icon": "minecraft:netherrack",
 	"order": 7,
