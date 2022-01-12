@@ -1,6 +1,7 @@
 {
 	"powers": [
-        
+        "twins:blindsphere",
+		"twins:hedgewitch_immunity"
 	],
 	"icon": "minecraft:dirt",
 	"order": 5,
