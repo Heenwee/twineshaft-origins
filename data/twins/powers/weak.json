@@ -9,7 +9,8 @@
         "amplifier": 0,
         "is_ambient": true,
         "show_particles": false,
-        "show_icon": false
+        "show_icon": false,
+        "hidden": true
     },
     "name": "Weak",
     "description": "You were never a strong person. You deal less damage when trying to strike with a physical attack."
