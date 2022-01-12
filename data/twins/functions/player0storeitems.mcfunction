@@ -20,4 +20,5 @@ item replace entity @s container.8 with air
 
 scoreboard players set @s castable 1
 
-give @s potion{display:{Name:'{"text":"Teleport!","color":"gold","bold":true}',Lore:['{"text":"Cost: 10 mana","color":"red"}']},HideFlags:127,CustomModelData:12345601,twins:12345601,twins:banned,Potion:"minecraft:thick",CustomPotionColor:7667492}
+give @s twins:teleport_star
+give @s twins:fireball_spell
