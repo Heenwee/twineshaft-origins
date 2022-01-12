@@ -1,3 +1,10 @@
 scoreboard named "castable"
 scoreboard named "PlayerID"
 chest or barrel at the coords 1117 64 1715 (this has to be loaded)
+
+/scoreboard objectives add castable trigger
+/scoreboard objectives add PlayerID trigger
+/scoreboard players set @s PlayerID 0
+
+/setblock 1117 64 1715 chest
+/setworldspawn 1117 64 1715
