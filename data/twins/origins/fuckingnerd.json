@@ -2,8 +2,8 @@
 	"powers": [
         "twins:switch_magic_hotbar",
         "twins:no_use_items_with_special_tag",
-        "twins:teleport_item_12345601",
-        "twins:fireball_key2"
+        "twins:teleport_160_blocks",
+        "twins:fireball"
         
 	],
 	"icon": "minecraft:grass",
