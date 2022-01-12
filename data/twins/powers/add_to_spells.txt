@@ -1,0 +1,25 @@
+"key": {
+    "key": "key.use",
+    "continuous": false
+},
+"condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type": "origins:scoreboard",
+            "objective": "castable",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "twins:teleport_star"
+                }
+            }
+        }
+    ]
+}
