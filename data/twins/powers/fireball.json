@@ -5,8 +5,8 @@
 	"count": 1,
 	"speed": 0.1,
 	"divergence": 1,
+	"tag": "{ExplosionPower:5}",
 	"sound": "minecraft:block.enchantment_table.use",
-    "tag": "{ExplosionPower:5}",
 	"key": {
 		"key": "key.use",
 		"continuous": false
