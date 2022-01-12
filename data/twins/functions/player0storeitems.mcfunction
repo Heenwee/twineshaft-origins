@@ -20,5 +20,4 @@ item replace entity @s container.8 with air
 
 scoreboard players set @s castable 1
 
-give @p potion{display:{Name:'{"text":"Cast Teleport!!","color":"red","bold":true}'},HideFlags:127,CustomModelData:1234501,twins:1b,Potion:"minecraft:thick",CustomPotionColor:8650532}
-give @p enchanted_book{display:{Name:'{"text":"Cast Fireball!","color":"red","bold":true}',Lore:['{"text":"Cost: 4 mana","italic":true}']},HideFlags:127,CustomModelData:1234502,StoredEnchantments:[{id:"minecraft:quick_charge",lvl:2s}]} 
+give @s potion{display:{Name:'{"text":"Teleport!","color":"gold","bold":true}',Lore:['{"text":"Cost: 10 mana","color":"red"}']},HideFlags:127,CustomModelData:12345601,twins:12345601,twins:banned,Potion:"minecraft:thick",CustomPotionColor:7667492}
