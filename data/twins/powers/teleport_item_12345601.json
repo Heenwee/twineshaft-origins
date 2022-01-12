@@ -40,9 +40,9 @@
 				"comparison": "==",
 				"compare_to": 1
 			},
-			{
-				"type": "origins:nbt",
-				"nbt": "{SelectedItem:tag:CustomModelData:12345601}     "
+			{   
+                "type": "origins:nbt",
+                "nbt": "{CustomModelData: 12345601}"
 			}
 		]
 	},
