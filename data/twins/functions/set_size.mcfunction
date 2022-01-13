@@ -16,6 +16,7 @@ execute if score @s size matches 9 run scale set pehkui:reach 0.9
 execute if score @s size matches 10 run scale set pehkui:height 1
 execute if score @s size matches 10 run scale set pehkui:width 1
 execute if score @s size matches 10 run scale set pehkui:reach 1
+execute if score @s size matches 10 run scale reset pehkui:step_height
 execute if score @s size matches 11 run scale set pehkui:height 1.1
 execute if score @s size matches 11 run scale set pehkui:width 1.1
 execute if score @s size matches 11 run scale set pehkui:reach 1.1
@@ -28,6 +29,8 @@ execute if score @s size matches 13 run scale set pehkui:reach 1.3
 execute if score @s size matches 14 run scale set pehkui:height 1.4 
 execute if score @s size matches 14 run scale set pehkui:width 1.4
 execute if score @s size matches 14 run scale set pehkui:reach 1.4
+execute if score @s size matches 14 run scale reset pehkui:step_height
+execute if score @s size matches 15 run scale set pehkui:step_height 1.6
 execute if score @s size matches 15 run scale set pehkui:height 1.5 
 execute if score @s size matches 15 run scale set pehkui:width 1.5
 execute if score @s size matches 15 run scale set pehkui:reach 1.5
