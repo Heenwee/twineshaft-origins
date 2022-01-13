@@ -19,6 +19,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
+						// checks what item the player is holding
 						"item": "twins:fireball_spell"
 					}
 				}
