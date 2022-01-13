@@ -1,5 +1,5 @@
 {
-	"name": "Self Teleportation",
+	"name": "resize up",
 	"description": "teleport slot 1 selected right click",
 	"type": "origins:active_self",
     "entity_action": {
