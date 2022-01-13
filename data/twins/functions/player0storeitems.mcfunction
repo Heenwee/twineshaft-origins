@@ -22,3 +22,6 @@ scoreboard players set @s castable 1
 
 give @s twins:teleport_star
 give @s twins:fireball_spell
+give @s twins:sphere_of_darnkess_spell
+give @s twins:up_vote
+give @s twins:down_vote

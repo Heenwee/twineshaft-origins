@@ -1,8 +1,11 @@
 scoreboard named "castable"
 scoreboard named "PlayerID"
+scoreboard named "size"
 chest or barrel at the coords 1117 64 1715 (this has to be loaded)
 
 /scoreboard objectives add castable trigger
+/scoreboard objectives add size trigger
+/scoreboard players set @a size 10
 /scoreboard objectives add PlayerID trigger
 /scoreboard players set @s PlayerID 0
 
