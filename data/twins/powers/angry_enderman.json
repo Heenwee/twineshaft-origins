@@ -1,0 +1,35 @@
+{
+	"name": "Scare from the End",
+	"description": "Create the sound of an angered enderman centered on a block you can see within range.",
+	"type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound block.respawn_anchor.charge player @s"
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "playsound minecraft:entity.enderman.stare player @p",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            }
+        ]
+    },
+    "cooldown": 10,
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "should_render": true,
+        "bar_index": 7
+    }
+}
