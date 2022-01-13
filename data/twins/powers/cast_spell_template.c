@@ -14,9 +14,14 @@
 				"compare_to": 1
 			},
 			{
-				"type": "origins:nbt",
-				// checks the selected slot, this counts from 0
-				"nbt": "{SelectedItemSlot:1}"
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "twins:fireball_spell"
+					}
+				}
 			}
 		]
 	},
