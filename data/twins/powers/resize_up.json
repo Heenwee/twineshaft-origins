@@ -29,7 +29,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "twins:fireball_spell"
+                        "item": "twins:up_vote"
                     }
                 }
             },

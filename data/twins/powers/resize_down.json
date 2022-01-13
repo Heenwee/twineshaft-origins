@@ -29,7 +29,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "twins:teleport_star"
+                        "item": "twins:down_vote"
                     }
                 }
             },
