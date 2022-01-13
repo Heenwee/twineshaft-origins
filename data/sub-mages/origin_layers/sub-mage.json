@@ -1,0 +1,18 @@
+{
+    "name": "Sub-mage",
+    "replace": false,
+    "enabled": true,
+    "order": 21,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "twins:earthbound"
+              },
+              "origins": [
+                    "twins:coaller",
+                    "twins:iron-monger"
+              ]
+        }
+    ]
+}

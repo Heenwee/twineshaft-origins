@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:iron_ingot",
+	"order": 2,
+	"impact": 0,
+    "name": "Iron Monger",
+    "description": "master of iron"
+}

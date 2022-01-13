@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:coal",
+	"order": 1,
+	"impact": 0,
+    "name": "Coaller",
+    "description": "master of coal"
+}
