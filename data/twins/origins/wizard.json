@@ -6,7 +6,8 @@
 		"twins:weak",
 		"twins:iron_armour",
 		"twins:teleport_160_blocks",
-		"twins:fireball"
+		"twins:fireball",
+		"twins:blindsphere"
 	],
 	"icon": "minecraft:book",
 	"order": 9,
