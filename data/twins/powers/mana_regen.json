@@ -1,0 +1,16 @@
+{
+	"hidden": true,
+    "type": "origins:action_over_time",
+	"entity_action": {
+    "type": "origins:change_resource",
+    "resource": "twins:mana",
+    "change": 1
+	},
+	"interval": 1,
+	"condition": {
+		"type": "origins:resource",
+        "resource": "twins:mana",
+        "comparison": "<",
+        "compare_to": 50
+    }
+}

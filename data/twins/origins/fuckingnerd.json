@@ -2,7 +2,10 @@
 	"powers": [
         "twins:switch_magic_hotbar",
         "twins:no_use_items_with_special_tag",
-        "twins:magic_armour"
+        "twins:magic_armour",
+        "twins:mana",
+        "twins:mana_regen",
+        "twins:fireball"
 	],
 	"icon": "minecraft:grass",
 	"order": 3,

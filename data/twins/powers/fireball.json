@@ -1,12 +1,24 @@
 {
-	"type": "origins:fire_projectile",
-	"entity_type": "minecraft:fireball",
-	"cooldown": 5,
-	"count": 1,
-	"speed": 0.1,
-	"divergence": 1,
-	"tag": "{ExplosionPower:2}",
-	"sound": "minecraft:block.enchantment_table.use",
+	"type": "origins:and",
+	"paramaters": [
+		{
+			"type": "origins:fire_projectile",
+			"entity_type": "minecraft:fireball",
+			"cooldown": 5,
+			"count": 1,
+			"speed": 0.1,
+			"divergence": 1,
+			"tag": "{ExplosionPower:2}",
+			"sound": "minecraft:block.enchantment_table.use",
+		},
+		{
+			"entity_action": {
+				"type": "origins:change_resource",
+				"resource": "twins:mana",
+				"change": 1
+				}
+		},
+	],
 	"key": {
 		"key": "key.use",
 		"continuous": false
@@ -29,6 +41,12 @@
 						"item": "twins:fireball_spell"
 					}
 				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "twins:mana",
+				"comparison": ">",
+				"compare_to": 8
 			}
 		]
 	},
@@ -37,6 +55,11 @@
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index": 8
 	},
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "twins:mana",
+		"change": -20
+		},
 	"name": "Fireball",
 	"description": "Shoots an explosive fireball that gains speed the longer it flys by pressing g",
     "hidden": false
