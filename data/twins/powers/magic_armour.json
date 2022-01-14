@@ -1,0 +1,31 @@
+{
+    "name": "Magic Armour",
+    "description": "take less damage from magic",
+    "type": "origins:multiple",
+    "dmg": {
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 47
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "magic"
+        }
+    },
+    "self_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "particle poof ~ ~1 ~ 0 0 0 0.1 50",
+                "permission_level": 5
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.wither.ambient",
+                "pitch": 4
+            }
+        ]
+    }
+}
