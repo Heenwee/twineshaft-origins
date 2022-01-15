@@ -42,6 +42,7 @@ then also add this
 
 
 
+
 if you can't add this because no, you can also create a secondary file, just to remove the mana; here's an example of that 
 
 

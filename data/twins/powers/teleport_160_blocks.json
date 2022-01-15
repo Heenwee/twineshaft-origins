@@ -27,6 +27,11 @@
             {
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:entity.enderman.teleport ambient @a"
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "twins:mana",
+                "change": -20
             }
         ]
     },
@@ -56,6 +61,12 @@
                         "item": "twins:teleport_star"
                     }
                 }
+            },
+            {
+                "type": "origins:resource",
+                "resource": "twins:mana",
+                "comparison": ">",
+                "compare_to": 20
             }
         ]
     }
