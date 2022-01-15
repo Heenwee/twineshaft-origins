@@ -9,5 +9,5 @@ chest or barrel at the coords 1117 64 1715 (this has to be loaded)
 /scoreboard objectives add PlayerID trigger
 /scoreboard players set @s PlayerID 0
 
-/setblock 1117 64 1715 chest
+/setblock 1117 64 1715 barrel
 /setworldspawn 1117 64 1715

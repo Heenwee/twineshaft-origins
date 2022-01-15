@@ -20,4 +20,4 @@ item replace block 1117 64 1715 container.8 with air
 
 scoreboard players set @s castable 0
 
-clear @s potion{Potion:"minecraft:thick"} 200
+function twins:clear_illegals
