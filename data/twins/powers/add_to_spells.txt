@@ -17,9 +17,73 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "item": "twins:teleport_star"
+                    "item": "twins:fireball_spell"
                 }
             }
+        },
+        {
+            "type": "origins:resource",
+            "resource": "twins:mana",
+            "comparison": ">",
+            "compare_to": 5
         }
     ]
+},
+
+
+then also add this
+
+
+"entity_action": {
+    "type": "origins:change_resource",
+    "resource": "twins:mana",
+    "change": -5
+},
+
+
+
+if you can't add this because no, you can also create a secondary file, just to remove the mana; here's an example of that 
+
+
+
+{   
+    "hidden": true,
+	"type": "origins:active_self",
+	"entity_action": {
+            "type": "origins:change_resource",
+            "resource": "twins:mana",
+            "change": -(MANA_COST_OF_SPELL)                                     <-
+    },
+    "key": {
+		"key": "key.use",
+		"continuous": false (THIS SHOULD ALSO BE THE SAME AS THE SPELL)         <-
+	},
+    "cooldown": (SAME_COOLDOWN_AS_OTHER_SPELL,)                                 <-
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:scoreboard",
+				"objective": "castable",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "twins:(ITEM_USED_IN_SPELL)"                    <-
+					}
+				}
+			},
+			{
+				"type": "origins:resource",
+				"resource": "twins:mana",
+				"comparison": ">",
+				"compare_to": (MANA_COST_OF_SPELL)                              <-
+			}
+		]
+	}
 }

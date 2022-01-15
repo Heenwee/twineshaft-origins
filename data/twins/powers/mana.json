@@ -2,8 +2,8 @@
 	"name": "mana bar",
     "type": "origins:resource",
     "min": 0,
-    "max": 50,
-	"start_value": 40,
+    "max": 70,
+	"start_value": 45,
     "hud_render": {
        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"should_render": true,
