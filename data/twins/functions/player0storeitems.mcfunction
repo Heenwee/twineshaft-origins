@@ -19,5 +19,6 @@ item replace entity @s container.7 with air
 item replace entity @s container.8 with air
 
 scoreboard players set @s castable 1
+resource set TemmieTem twins:display_cast_mode 1
 
 function twins:give_spells

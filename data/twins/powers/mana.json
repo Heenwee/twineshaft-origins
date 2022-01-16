@@ -5,8 +5,8 @@
     "max": 70,
 	"start_value": 45,
     "hud_render": {
-       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
 		"should_render": true,
-		"bar_index": 15
+		"bar_index": 2
     }
 }

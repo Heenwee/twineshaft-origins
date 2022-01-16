@@ -26,8 +26,8 @@
         "continuous": false
     },
     "hud_render": {
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
         "should_render": true,
-        "bar_index": 7
+        "bar_index": 21
     }
 }

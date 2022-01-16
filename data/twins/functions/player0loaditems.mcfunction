@@ -19,5 +19,6 @@ item replace block 1117 64 1715 container.7 with air
 item replace block 1117 64 1715 container.8 with air
 
 scoreboard players set @s castable 0
+resource set TemmieTem twins:display_cast_mode 0
 
 function twins:clear_illegals
