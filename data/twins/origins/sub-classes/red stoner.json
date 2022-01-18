@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:redstone_dust",
+	"order": 3,
+	"impact": 0,
+    "name": "Red stoner",
+    "description": "master of redstone (no drugs involved)"
+}

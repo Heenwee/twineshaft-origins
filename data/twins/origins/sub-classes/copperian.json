@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:copper_ingot",
+	"order": 6,
+	"impact": 0,
+    "name": "Copperian",
+    "description": "master of copper"
+}

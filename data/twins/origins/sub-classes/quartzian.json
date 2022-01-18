@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:quartz",
+	"order": 7,
+	"impact": 0,
+    "name": "Quartzian",
+    "description": "master of quarts"
+}
