@@ -1,7 +1,10 @@
 clone 1117 64 1715 1117 64 1715 ~ ~ ~
 setblock ~ ~ ~ air destroy
-kill @e[distance=..1.5,type=item,nbt={Item:{id:"minecraft:chest"}}]
-kill @e[distance=..1.5,type=item,nbt={Item:{id:"minecraft:barrel"}}]
+
+function twins:clear_illegals_in_radius
+
+scoreboard players set @s castable 0
+resource set TemmieTem twins:display_cast_mode 0
 
 item replace block 1117 64 1715 container.0 with air
 item replace block 1117 64 1715 container.1 with air
