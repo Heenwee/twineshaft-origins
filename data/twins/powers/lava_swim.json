@@ -1,0 +1,69 @@
+{
+    "type": "origins:multiple",
+    "enable_swimming_in_lava":
+    {
+        "type": "origins:swimming",
+        "condition":
+        {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:lava",
+            "comparison": ">",
+            "compare_to": 0.0,
+            "inverted": false
+        }
+    },
+    "like_water_for_lava":
+    {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:lava"
+                },
+                {
+                    "type": "origins:sneaking",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:swimming",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "fire_damage_immunity":
+    {
+        "type": "origins:fire_immunity"
+    },
+    "lava_vision":
+    {
+        "type": "origins:lava_vision",
+        "s": 0,
+        "v": 15
+    },
+    "breathe_under_lava":
+    {
+        "type": "apoli:stacking_status_effect",
+        "hidden": true,
+        "min_stacks": 1,
+        "max_stacks": 1,
+        "duration_per_stack": 60,
+        "effects": [
+            {
+                "effect": "minecraft:water_breathing",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ],
+        "condition":
+        {
+            "type": "apoli:submerged_in",
+            "fluid": "minecraft:lava"
+        }
+    }
+}

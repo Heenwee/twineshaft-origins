@@ -12,11 +12,11 @@
         },
         "if_action": {
             "type": "origins:execute_command",
-            "command": "function twins:loaditemsforplayers"
+            "command": "execute in minecraft:overworld run function twins:loaditemsforplayers"
         },
         "else_action": {
             "type": "origins:execute_command",
-            "command": "function twins:storeitemsforplayers"
+            "command": "execute in minecraft:overworld run function twins:storeitemsforplayers"
     
         }
     },

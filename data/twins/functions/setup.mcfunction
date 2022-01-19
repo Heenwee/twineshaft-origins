@@ -26,7 +26,6 @@ scoreboard players set controlValue1 amountOfSpells 0
 
 # container
 tp 1117 100 1715
-setblock 1117 64 1715 barrel
 setworldspawn 1117 64 1715
 
 

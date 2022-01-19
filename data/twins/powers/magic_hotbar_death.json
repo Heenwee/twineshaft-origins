@@ -24,7 +24,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "function twins:dropitemsfromplayers"
+                    "command": "execute in minecraft:overworld run function twins:dropitemsfromplayers"
                 },
                 {
                     "type": "origins:execute_command",

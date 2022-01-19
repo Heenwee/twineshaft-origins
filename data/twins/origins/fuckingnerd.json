@@ -9,7 +9,9 @@
         "twins:no_use_items_with_special_tag",
         "twins:lightning",
         "twins:change_weather",
-        "twins:water_breathing"
+        "twins:water_breathing",
+        "twins:conduit_giver",
+        "twins:lava_swim"
 
 	],
 	"icon": "minecraft:grass",
