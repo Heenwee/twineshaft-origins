@@ -2,7 +2,7 @@
 	"powers": [
         
 	],
-	"icon": "minecraft:redstone_dust",
+	"icon": "minecraft:redstone",
 	"order": 3,
 	"impact": 0,
     "name": "Red stoner",
