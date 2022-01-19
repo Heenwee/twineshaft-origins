@@ -1,0 +1,23 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 120,
+    "duration_per_stack": 20,
+    "tick_rate": 20,
+    "effects": [
+        {
+            "effect": "minecraft:water_breathing",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "condition": 
+        {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water",
+            "inverted": "true"
+        },
+    "name": "Beaver lungs",
+    "description": "You can breathe under water for up to 2 minutes, just like a beaver :))"
+}

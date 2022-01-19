@@ -1,5 +1,5 @@
-kill @e[type=item,limit=1,sort=nearest,distance=..10,nbt={Item:{id:"minecraft:barrel"}}
-kill @e[type=item,limit=1,sort=nearest,distance=..10,nbt={Item:{id:"minecraft:barrier"}}
+kill @e[distance=..10,type=item,nbt={Item:{id:"minecraft:barrel"}}]
+kill @e[distance=..10,type=item,nbt={Item:{id:"minecraft:barrier"}}]
 
 
 kill @e[distance=..10,type=item,nbt={Item:{id:"twins:teleport_star"}}]

@@ -2,13 +2,14 @@
 	"powers": [
         "twins:mana",
         "twins:mana_regen",
-        "twins:display_cast_mode",
         "twins:improved_veggies",
         "twins:magic_hotbar_switch",
         "twins:magic_hotbar_death",
         "twins:magic_hotbar_death2",
         "twins:no_use_items_with_special_tag",
-        "twins:lightning"
+        "twins:lightning",
+        "twins:change_weather",
+        "twins:water_breathing"
 
 	],
 	"icon": "minecraft:grass",
