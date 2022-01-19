@@ -8,9 +8,8 @@
         "twins:magic_hotbar_death",
         "twins:magic_hotbar_death2",
         "twins:no_use_items_with_special_tag",
-        "twins:fireball",
-        "twins:fireball_mana_removal",
-        "twins:teleport_160_blocks"
+        "twins:lightning"
+
 	],
 	"icon": "minecraft:grass",
 	"order": 3,

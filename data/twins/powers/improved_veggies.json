@@ -1,6 +1,6 @@
 {
     "name": "§eMMMMMM VEGGIE YUMMY",
-    "description": "Veggies feed you more than it would others, in addition you can eat them whilst already being stuffed (totally not just a side effect of how this is coded)",
+    "description": "Veggies feed you more than it would others",
     "type": "origins:modify_food",
     "item_condition": {
         "type": "origins:or",
@@ -98,6 +98,5 @@
     "saturation_modifier": {
         "operation": "addition",
         "value": 3
-    },
-    "always_edible": true
+    }
 }

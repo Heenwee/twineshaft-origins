@@ -1,0 +1,19 @@
+{
+    "name": "chrous yummmm",
+    "description": "chorus fruit yummi yummi in my tummy",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "food_modifier": {
+        "operation": "addition",
+        "value": 2
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 5
+    }
+}

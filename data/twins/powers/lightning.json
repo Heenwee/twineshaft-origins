@@ -1,0 +1,162 @@
+{
+	"name": "thunder lmao",
+	"description": "yay",
+    "type": "origins:active_self",
+	"entity_action": {
+	"type": "origins:and",
+    "actions": [
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:raycast",
+                "distance": 160,
+                "block": true,
+                "entity": true,
+                "shape_type": "outline",
+                "fluid_handling": "none",
+                "command_at_hit": "execute positioned ~ ~ ~ run summon lightning_bolt",
+                "command_step": 1,
+                "command_along_ray_only_on_hit": true
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "twins:mana",
+                "change": -5
+            }
+        ]
+    },
+    "cooldown": 10,
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:scoreboard",
+                "objective": "castable",
+                "comparison": "==",
+                "compare_to": 1
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "twins:fireball_spell"
+                    }
+                }
+            },
+            {
+                "type": "origins:resource",
+                "resource": "twins:mana",
+                "comparison": ">",
+                "compare_to": 5
+            }
+        ]
+    },
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+		"should_render": true,
+		"bar_index": 2
+    }
+}
