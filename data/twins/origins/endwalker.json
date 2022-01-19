@@ -2,6 +2,7 @@
 	"powers": [
         "twins:magic_hotbar_switch",
 		"twins:teleport_160_blocks",
+		"twins:crystal_regen",
 		"twins:angry_enderman"
 	],
 	"icon": "minecraft:end_stone_bricks",
