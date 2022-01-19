@@ -19,6 +19,26 @@
                     "twins:quartzian",
                     "twins:golden-retriever"
               ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "twins:sealing"
+              },
+              "origins": [
+                    "twins:stormcaller",
+                    "twins:windwalker"
+              ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "twins:netherian"
+              },
+              "origins": [
+                    "twins:necromancer",
+                    "twins:pyromancer"
+              ]
         }
     ]
 }

@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:trident",
+	"order": 9,
+	"impact": 0,
+    "name": "Stormcaller",
+    "description": "A mage with the power to control the weather"
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:zombie_head",
+	"order": 11,
+	"impact": 0,
+    "name": "Necromancer",
+    "description": "You control the power of the undead"
+}

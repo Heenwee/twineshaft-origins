@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:fire_charge",
+	"order": 12,
+	"impact": 0,
+    "name": "Pyromancer",
+    "description": "Weave the power of flames at will"
+}

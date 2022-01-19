@@ -1,0 +1,10 @@
+{
+	"powers": [
+        
+	],
+	"icon": "minecraft:white_dye",
+	"order": 10,
+	"impact": 0,
+    "name": "Windwalker",
+    "description": "You've grown to control the power of the wind"
+}
