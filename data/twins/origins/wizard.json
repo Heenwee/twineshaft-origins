@@ -1,6 +1,6 @@
 {
 	"powers": [
-        "twins:switch_magic_hotbar",
+        "twins:magic_hotbar_switch",
 		"origins-classes:better_enchanting",
         "origins:nine_lives",
 		"twins:weak",

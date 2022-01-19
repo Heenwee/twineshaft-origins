@@ -1,6 +1,6 @@
 {
 	"powers": [
-        "twins:switch_magic_hotbar",
+        "twins:magic_hotbar_switch",
         "twins:auto_soulspeed",
 		"twins:fireball"
 	],

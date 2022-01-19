@@ -1,0 +1,1 @@
+execute if score @s PlayerID matches 0 run function twins:player0dies

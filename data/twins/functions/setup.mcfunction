@@ -10,9 +10,11 @@ scoreboard objectives add castable trigger
 scoreboard objectives add size trigger
 scoreboard players set @a size 10
 scoreboard objectives add PlayerID trigger
+scoreboard objectives add deathDropTriggered trigger 
 
 
 # container
+tp 1117 100 1715
 setblock 1117 64 1715 barrel
 setworldspawn 1117 64 1715
 

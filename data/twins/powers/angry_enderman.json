@@ -3,8 +3,8 @@
 	"description": "Create the sound of an angered enderman centered on a block you can see within range.",
 	"type": "origins:active_self",
 	"entity_action": {
-	"type": "origins:and",
-    "actions": [
+        "type": "origins:and",
+        "actions": [
             {
                 "type": "origins:execute_command",
                 "command": "playsound block.respawn_anchor.charge player @s"

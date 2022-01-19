@@ -18,6 +18,8 @@ item replace entity @s container.6 with air
 item replace entity @s container.7 with air
 item replace entity @s container.8 with air
 
+say loading spells
+
 scoreboard players set @s castable 1
 resource set TemmieTem twins:display_cast_mode 1
 

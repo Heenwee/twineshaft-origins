@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "condition": 
+    {
+        "type": "origins:health",
+        "comparison": "!=",
+        "compare_to": 0
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players set @s deathDropTriggered 0"
+    }
+}

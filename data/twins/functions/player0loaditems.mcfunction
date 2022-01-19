@@ -18,6 +18,8 @@ item replace block 1117 64 1715 container.6 with air
 item replace block 1117 64 1715 container.7 with air
 item replace block 1117 64 1715 container.8 with air
 
+say loading items from chest
+
 scoreboard players set @s castable 0
 resource set TemmieTem twins:display_cast_mode 0
 

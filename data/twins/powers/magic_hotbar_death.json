@@ -1,0 +1,36 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:health",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:scoreboard",
+                    "objective": "deathDropTriggered",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function twins:dropitemsfromplayers"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scoreboard players set @s deathDropTriggered 1"
+                }
+            ]
+        }
+    }
+}
