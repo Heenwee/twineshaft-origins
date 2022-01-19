@@ -11,7 +11,9 @@ scoreboard objectives add size trigger
 scoreboard objectives add PlayerID trigger
 scoreboard objectives add deathDropTriggered trigger 
 
+
 scoreboard objectives add amountOfSpells trigger
+# lmao when binary count from 0 haha
 scoreboard players set controlValue9 amountOfSpells 8
 scoreboard players set controlValue8 amountOfSpells 7
 scoreboard players set controlValue7 amountOfSpells 6
