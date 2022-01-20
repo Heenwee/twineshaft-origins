@@ -1,5 +1,9 @@
 {
 	"powers": [
+        "twins:mana",
+        "twins:mana_regen",
+        "twins:magic_hotbar_death",
+        "twins:magic_hotbar_death2",
         "twins:magic_hotbar_switch",
 		"origins-classes:better_enchanting",
         "origins:nine_lives",

@@ -6,7 +6,7 @@
         "resource": "twins:mana",
         "change": 1
 	},
-	"interval": 7,
+	"interval": 1,
 	"condition": {
 		"type": "origins:resource",
         "resource": "twins:mana",
