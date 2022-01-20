@@ -1,6 +1,7 @@
 {
 	"powers": [
-        
+        "twins:lightning",
+        "twins:change_weather"
 	],
 	"icon": "minecraft:trident",
 	"order": 9,

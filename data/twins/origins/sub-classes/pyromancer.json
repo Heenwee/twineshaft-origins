@@ -1,6 +1,6 @@
 {
 	"powers": [
-        
+        "twins:fireball"
 	],
 	"icon": "minecraft:fire_charge",
 	"order": 12,

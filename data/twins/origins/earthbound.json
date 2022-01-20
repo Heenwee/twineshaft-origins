@@ -6,7 +6,9 @@
         "twins:magic_hotbar_death2",
         "twins:magic_hotbar_switch",
         "twins:blindsphere",
-		"twins:hedgewitch_immunity"
+		"twins:hedgewitch_immunity",
+        "twins:resize_up",
+        "twins:resize_down"
 	],
 	"icon": "minecraft:dirt",
 	"order": 5,

@@ -5,8 +5,7 @@
         "twins:magic_hotbar_death",
         "twins:magic_hotbar_death2",
         "twins:magic_hotbar_switch",
-        "twins:auto_soulspeed",
-		"twins:fireball"
+        "twins:auto_soulspeed"
 	],
 	"icon": "minecraft:netherrack",
 	"order": 7,
